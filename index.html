@@ -76,7 +76,7 @@
        <p id="pesan7" class="gaya2">Katanya, kalo mau tambah bahagia harus sering-sering traktir makan 😜  </p>
 
        <p id="pesan8" class="gaya2">Oh iya, semoga kamu sehat selalu, panjang umur, dimudahkan dan dilancarkan segala urusannya. semoga bisa dapetin hal yang selama ini di perjuangin, dan selalu dikelilingi orang orang baikk</p>
-       <p id="pesan9" class="gaya2">Dan semoga di hari spesialmu ini kamu dapat menjadi pribadi yang lebih baik lagi yaa. Tambah dewasa lagi, Sukses buat karir dan masa depannya.. 🥳 <br/>Semoga bahagia dan itu selamanya<br/> Doa terbaik buat kamu pokoknya</p>
+       <p id="pesan9" class="gaya2">Dan semoga di hari spesialmu ini kamu dapat menjadi pribadi yang lebih baik lagi yaa. Tambah dewasa lagi, Sukses buat karir dan masa depannya.. 🥳 <br/>Semoga bahagia selalu<br/> Doa terbaik buatmu pokoknya</p>
        <p id="pesan10" class="gaya2">Happy Level Up Day!! 🥳</p>
 
        <!-- Tombol Lanjut -->
@@ -104,11 +104,11 @@
   
   async function inipesan(){
     var { value: nama } = await swals.fire({
-           title: 'Hai XXX, <br/> Baca baik-baik yaa',
+           title: 'Hai Hera, <br/> Baca baik-baik yaa',
        });
        if(nama && nama < 11){
-         window.nama = "XXX";
-         vketikhalo="Hai, " + "yyy" + " ✨";
+         window.nama = "Hera";
+         vketikhalo="Hai, " + "Hera" + " ✨";
          mulainama();
          } else {
            await swals.fire('Ups!', 'Nama tidak boleh kosong atau lebih dari 10 karakter, ya!');inipesan();
